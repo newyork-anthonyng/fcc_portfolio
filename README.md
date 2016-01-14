@@ -10,8 +10,8 @@ This is the very first Front-End project, where you have to design and develop a
   * User can navigate to different sections of the webpage by clicking buttons in the navigation
 
   ## Wireframes
-  ![About Me Page](./public/01_About.png)
+  ![About Me Page](./public/wireframe/01_About.png)
 
-  ![Projects Page](./public/02_Projects.png)
+  ![Projects Page](./public/wireframe/02_Projects.png)
 
-  ![Contact Page](./public/03_Contact.png)
+  ![Contact Page](./public/wireframe/03_Contact.png)
