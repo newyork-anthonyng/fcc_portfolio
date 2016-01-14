@@ -2,7 +2,7 @@
 
 Built for freecodecamp.com
 This is the very first Front-End project, where you have to design and develop a portfolio site.
-
+Hosted on [Github](http://newyork-anthonyng.github.io/fcc_portfolio/)
 ## User Stories
   * User can access all of the webpage's content just by scrolling
   * User can click different buttons that will take them to the creator's different social media pages
