@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <link href='https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css' rel='stylesheet' type='text/css'>
   <link href="style.css" type="text/css" rel="stylesheet">
   <title>Anthony Ng</title>
 </head>
 
 <body>
-  <h1>Anthony Ng</h1>
+  <div class="left-column">
+    <h1>Anthony Ng</h1>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </div>
 
-  
+  <div class="right-column">
+    <div class="about">
+      <a id="about"></a>
+      <p>A former tax accountant, I am now interested in working in web development.
+        I am focused on creating a clean user experience while producing readable
+        and elegant code. <br><br>
+        I approach code and design similarly. In design, I like to
+        embrace the simple with a hint of sophistication. Code should be the same.
+      </p>
+    </div>
+
+    <div class="projects">
+      <a id="projects"></a>
+      <div>
+        <img src="./public/screenshots/Ear_Roulette.png" alt="Screenshot of Ear Roulette"></img>
+        <h3>Ear Roulette</h3>
+        <p>A jukebox filled with 30-second song snippets. You will never get tired
+          of music again.
+          <br><br>
+          Built with: MEAN, Spotify API
+        </p>
+      </div>
+
+      <div>
+        <img src="./public/screenshots/Vicinity.png" alt="Screenshot of Vicinity"></img>
+        <h3>Vicinity</h3>
+        <p>Find out where all the essentials around you are, with the press of a
+          button.
+          <br><br>
+          Built with: Express, Angular, Node, Google Maps API, Google Places API
+        </p>
+      </div>
+    </div>
+
+    <div class="contact">
+      <a id="contact"></a>
+      <ul>
+        <li><a href="mailto:newyork.anthonyng@gmail.com?Subject=Hello">newyork.anthonyng@gmail.com</a></li>
+        <li><a href="https://github.com/newyork-anthonyng">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/anthony-ng-02856056">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
