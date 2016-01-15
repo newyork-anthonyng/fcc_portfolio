@@ -1,3 +1,30 @@
 body {
-  color:yellow;
+  font-size:20px;
+}
+
+h1 {
+  font-size:2.5em;
+  margin-left:0.5em;
+  margin-top:0.5em;
+}
+
+nav > ul {
+  padding-left:1.5em;
+}
+
+.about > p {
+  width:65%;
+}
+
+.projects img {
+  float:none;
+  width:50%;
+}
+
+.contact {
+  margin-bottom:12em;
+}
+
+.contact a {
+  font-size:1em;
 }
