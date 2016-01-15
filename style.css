@@ -1,56 +1,12 @@
 html, body {
-  font-family: 'Nanum Myeongjo', serif;
-  max-width: 100%;
-  overflow-x: hidden;
+  font-family:'Nanum Myeongjo', serif;
+  max-width:100%;
+  overflow-x:hidden;
 }
 
-h1 {
-  font-size: 3em;
-  font-weight: lighter;
-  margin-left: 1em;
-  margin-top: 1em;
-}
-
-nav {
-  margin-top: 5em;
-}
-
-nav > ul {
-  list-style: none;
-  padding-left: 3em;
-}
-
-nav li {
-  font-size:1.5em;
-  margin: 2em 0;
-}
-
-a {
-  color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
-  position:relative;
-}
-
-a:before {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom:0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  transition: all .75s ease-in-out 0s;
-}
-
-a:hover {
-  color: rgba(0, 0, 0, 1);
-}
-
-a:hover:before {
-  visibility: visible;
-  width: 100%;
-}
+/******************************************************************************
+*** Header and Navigation *****************************************************
+******************************************************************************/
 
 .left-column {
   float: left;
@@ -58,35 +14,99 @@ a:hover:before {
   width:30%;
 }
 
-.right-column {
-  left: 30%;
-  padding-left: 2em;
-  position: relative;
+h1 {
+  font-size:3em;
+  font-weight:lighter;
+  margin-left:1em;
+  margin-top:1em;
 }
+
+nav {
+  margin-top:5em;
+}
+
+nav > ul {
+  list-style:none;
+  padding-left:3em;
+}
+
+nav li {
+  font-size:1.5em;
+  margin:2em 0;
+}
+
+/******************************************************************************
+*** Links and Animation *******************************************************
+******************************************************************************/
+
+a {
+  color:rgba(0, 0, 0, 0.5);
+  text-decoration:none;
+  position:relative;
+}
+
+a:before {
+  content:"";
+  position:absolute;
+  width:0%;
+  height:2px;
+  bottom:0;
+  left:0;
+  background-color:#000;
+  visibility:hidden;
+  transition:all .75s ease-in-out;
+}
+
+.hover:before {
+  visibility:visible;
+  width:100%;
+}
+
+.hover {
+  color:rgba(0, 0, 0, 1);
+}
+
+/******************************************************************************
+*** Content Column ************************************************************
+******************************************************************************/
+
+.right-column {
+  left:30%;
+  padding-left:2em;
+  position:relative;
+}
+
+/******************************************************************************
+*** About Me ******************************************************************
+******************************************************************************/
 
 .about {
-  padding-top: 10em;
+  padding-top:10em;
 }
 
-#about + p {
-  line-height: 2em;
-  width: 40%;
+.about > p {
+  line-height:2em;
+  width:40%;
 }
+
+/******************************************************************************
+*** Projects ******************************************************************
+******************************************************************************/
 
 .projects {
-  margin-top: 20em;
+  margin-top:20em;
 }
 
 .projects img {
-  border: 1px solid black;
-  float: left;
-  margin-right: 2em;
-  width: 20em;
+  border:1px solid black;
+  float:left;
+  margin-right:2em;
+  width:20em;
 }
 
 .projects > div {
-  clear: left;
-  overflow: hidden;
+  clear:left;
+  overflow:hidden;
   margin-top:2em;
 }
 
@@ -94,16 +114,20 @@ a:hover:before {
   width: 60%;
 }
 
+/******************************************************************************
+*** Contact *******************************************************************
+******************************************************************************/
+
 .contact {
-  margin-top: 20em;
-  margin-bottom: 20em;
+  margin-top:20em;
+  margin-bottom:20em;
 }
 
 .contact ul {
-  list-style: none;
+  list-style:none;
 }
 
 .contact li {
-  font-size: 1.5em;
-  margin-top: 1em;
+  font-size:1.5em;
+  margin-top:1em;
 }
